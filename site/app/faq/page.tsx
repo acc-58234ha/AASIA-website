@@ -25,44 +25,6 @@ export default async function FAQPage() {
     backgroundColor: "bg-white",
   }
 
-  const carouselImages = [
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+1",
-      alt: "AASIA community event",
-      caption: "Annual community gathering",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+2",
-      alt: "Cultural celebration",
-      caption: "Cultural heritage celebration",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+3",
-      alt: "Volunteer activity",
-      caption: "Community service project",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+4",
-      alt: "EVO performance",
-      caption: "EVO cultural showcase",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+5",
-      alt: "Social gathering",
-      caption: "Member social event",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+6",
-      alt: "Workshop session",
-      caption: "Educational workshop",
-    },
-    {
-      src: "/placeholder.svg?height=400&width=600&text=AASIA+Event+7",
-      alt: "Group photo",
-      caption: "AASIA family photo",
-    },
-  ]
-
   return (
     <div className="flex-1 pt-20 flex-col min-h-screen">
       {/* About Section */}
@@ -86,14 +48,6 @@ export default async function FAQPage() {
               />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Image Carousel Section */}
-      <section className="bg-gray-50 py-16 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Our Community in Action</h2>
-          <ImageCarousel images={carouselImages} />
         </div>
       </section>
     </div>
